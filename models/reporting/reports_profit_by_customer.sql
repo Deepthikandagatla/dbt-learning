@@ -1,3 +1,11 @@
+{{
+    config(
+        materialized='table')
+    
+}}
+
+
+
 select
 customerid,
 segment,
